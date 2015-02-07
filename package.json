@@ -13,7 +13,7 @@
     "grunt-contrib-jade": "^0.14.1",
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-harp": "^0.1.4",
-    "harp" : "git://github.com:sintaxi/harp.git"
+    "grunt-harp": "git://github.com:shovon/grunt-harp.git",
+    "harp": "^0.15.0"
   }
 }
