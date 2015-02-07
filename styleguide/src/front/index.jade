@@ -1,21 +1,16 @@
-mixin description
-  .description
-    block
-
+// 以下おまじない
 mixin example
   .example
     block
-    .code
-      pre: code: block
-
-mixin guide(title)
-  .guide
-    .title #{title}
-    block
-
-+guide("Button")
-  +description
-    div blue-button - 説明文です
+  pre
+    code
+      block
+// ここからstyleguide
+.desktop-guide
+  h2 heading系
+  h2 ボタン系
+  h3 Button
+  div これはボタンです
   +example
     .button Push this
-  
+
